@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/headline_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"/>
+        <Button
+            android:id="@+id/button_TableLayout"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:textSize="40sp"
+            android:background="@drawable/button_selector"
+            android:onClick="onClickTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/table_layout"/>
+
+        <Button
+
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:textSize="40sp"
+            android:background="@drawable/button_selector"
+            android:onClick="onClickTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/table_layout"/>
+        <Button
+
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:textSize="40sp"
+            android:background="@drawable/button_selector"
+            android:onClick="onClickTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/table_layout"/>
+        <Button
+            android:id="@+id/button_RelativeLayout"
+            android:background="@drawable/button_selector"
+            android:onClick="onClickRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/relative_layout"/>
+        <Button
+            android:id="@+id/button_FrameLayout"
+            android:onClick="onClickFrameLayout"
+            android:background="@drawable/button_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frame_layout"/>
+        <Button
+            android:id="@+id/button_GridLayout"
+            android:onClick="onClickGridLayout"
+            android:background="@drawable/button_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_layout"/>
+    <!-- ... -->
+</LinearLayout>
+</ScrollView>

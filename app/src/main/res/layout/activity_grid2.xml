@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:rowCount="3"
+    android:columnCount="4">
+    <TextView
+        android:layout_columnSpan="4"
+        android:text="@string/hello_world"/>
+    <ImageView android:src="@drawable/android"/>
+    <Button
+    android:layout_gravity="fill_horizontal"
+    android:text="@string/linear_layout"/>
+    <ImageView android:src="@drawable/android"/>
+    <Button
+    android:layout_gravity="fill_horizontal"
+    android:text="@string/relative_layout"/>
+    <ImageView android:src="@drawable/android"/>
+    <Button
+    android:layout_gravity="fill_horizontal"
+    android:text="@string/frame_layout"/>
+    <ImageView android:src="@drawable/android"/>
+    <Button
+    android:layout_gravity="fill_horizontal"
+    android:text="@string/grid_layout"/>
+</GridLayout>
